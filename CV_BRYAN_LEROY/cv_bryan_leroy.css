@@ -1,0 +1,148 @@
+html {
+    background: #000000;
+}
+
+body {
+    background: #FFFFFF;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: 'Scheherazade New', sans-serif;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 20px 30px 20px 30px;
+    border: 1px solid white;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #FF0000;
+}
+
+h1 {
+    font-size: 92px;
+    font-weight: 600;
+    line-height: 1;
+    color: #000000;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 200;
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 1;
+    text-align: center;
+}
+
+h3 {
+    margin-top : 70px;
+    font-size: 35px;
+    font-weight: 550;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+p {
+    font-size: 30px;
+}
+
+ul {font-size: 30px;
+}
+
+a {
+    color: #04FF00;
+}
+
+b, strong {
+    font-weight: 800;
+}
+
+.bryan_leroy {
+    width: 25%;
+    border: 5px solid #000000;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.Logo
+{
+    width: 70%;
+    border: 0px solid #000000;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+@media (max-width: 600px) {
+  body{
+    width: 80%;
+    font-size: 48px;
+  }
+  h1{
+    font-size: 36px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  p{
+    color: black
+  }
+
+}
+
+@media (min-width: 600px) and (max-width :992px) {
+  body{
+    width: 50%;
+    font-size: 30px;
+  }
+  h1{
+    font-size: 24px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  p{
+    color: black
+  }
+}
+
+@media (min-width: 992px) and (max-width :1200px)
+{
+  body{
+    width: 70%;
+    font-size: 30px;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  p{
+    color: pink
+  }
+}
+
+  @media (min-width: 1200px)
+  {
+    body{
+      width: 80%;
+      font-size: 20px;
+    }
+    h1{
+      font-size: 50px;
+    }
+    h2{
+      font-size: 40px;
+    }
+    p{
+      color: black
+    }
+  }
